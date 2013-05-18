@@ -45,7 +45,7 @@ if(empty($erro)){
       $mail->Host = "smtp.googlemail.com"; //SERVIDOR DE SMTP, USE smtp.SeuDominio.com OU smtp.hostsys.com.br 
       $mail->SMTPAuth = true; //ATIVA O SMTP AUTENTICADO
       $mail->Username = "charleandre@gmail.com"; //EMAIL PARA SMTP AUTENTICADO (pode ser qualquer conta de email do seu domínio)
-      $mail->Password = "apollo32"; //SENHA DO EMAIL PARA SMTP AUTENTICADO
+      $mail->Password = "minhasenha"; //SENHA DO EMAIL PARA SMTP AUTENTICADO
       $mail->From = $email; //E-MAIL DO REMETENTE 
       $mail->FromName = $nome; //NOME DO REMETENTE
       $mail->AddAddress($para); //E-MAIL DO DESINATÁRIO, NOME DO DESINATÁRIO --> AS VARIÁVEIS ALI PODEM FAZER REFERÊNCIA A DADOS VINDO DE $_GET OU $_POST, OU AINDA DO BANCO DE DADOS
